@@ -1,3 +1,11 @@
 .env
 .fleet/
 .fleet-deploy.log
+*.log
+
+# --- CMake / Qt ---
+build/
+build-*/
+cmake-build-*/
+CMakeLists.txt.user
+CMakeCache.txt
